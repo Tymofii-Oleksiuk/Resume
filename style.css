@@ -1,0 +1,145 @@
+/* Обнуление стилей и базовые налаштування */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #f4f7f9;
+  padding: 40px 20px;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #1f4e79;
+}
+
+.name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1f4e79;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #646e78;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.contacts {
+  font-size: 1rem;
+  color: #444444;
+}
+
+.contacts a {
+  color: #1f4e79;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+  color: #163857;
+}
+
+.separator {
+  margin: 0 10px;
+  color: #ccc;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f4e79;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-left: 4px solid #1f4e79;
+  padding-left: 10px;
+}
+
+.about-text {
+  text-align: justify;
+  color: #454545;
+}
+
+/* Списки (Навички та Додатково) */
+ul {
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  color: #454545;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1f4e79;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: -2px;
+}
+
+li strong {
+  color: #1f4e79;
+}
+
+.edu-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.edu-years {
+  width: 25%;
+  font-weight: 700;
+  color: #646e78;
+  padding-right: 15px;
+}
+
+.edu-info {
+  width: 75%;
+}
+
+.edu-title {
+  font-weight: 700;
+  color: #1f4e79;
+  margin-bottom: 3px;
+  font-size: 1.05rem;
+}
+
+.edu-details {
+  color: #454545;
+}
+
+.zeugnis {
+    display: block;
+    margin-top: 10px;
+  color: #454545;
+}
