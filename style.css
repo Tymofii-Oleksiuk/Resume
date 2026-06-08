@@ -33,7 +33,7 @@ body {
   top: 0;
   left: 600px;
   position: absolute;
-  width: 120px;
+  width: 110px;
   height: 145px;
 }
 
@@ -41,7 +41,7 @@ body {
   #tymofii {
     position: relative;
     left: 0;
-    width: 120px;
+    width: 110px;
     height: 145px;
   }
 }
